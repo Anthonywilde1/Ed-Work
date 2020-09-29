@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "pokemon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "run": "nodemon \"coinflip.js"
   },
   "author": "",
@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "fetch": "^1.1.0",
+    "jest": "^26.4.2",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {

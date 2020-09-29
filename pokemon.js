@@ -18,7 +18,7 @@ app.get(`/teambuilder/:size`, (req, res) => {
         data.push(fetch(`https://pokeapi.co/api/v2/pokemon/${apinum}`));
         i++   
         
-} 
+} // fuck this code
 Promise.all(data).then(res.send)
 }) 
 
